@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/shortcut_item1"
+        android:title="我的应用" />
+    <item
+        android:id="@+id/shortcut_item2"
+        android:title="安全中心" />
+    <!-- 添加更多的快捷键项... -->
+</menu>

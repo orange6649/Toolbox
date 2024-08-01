@@ -1,0 +1,29 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 第一层渐变 -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="90"
+                android:startColor="@color/蓝色3"
+                android:endColor="@color/white"/>
+        </shape>
+    </item>
+    <!-- 第二层渐变 -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="90"
+                android:startColor="@color/white"
+                android:endColor="@color/white"/>
+        </shape>
+    </item>
+    <!-- 第三层渐变 -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="90"
+                android:startColor="@color/white"
+                android:endColor="@color/蓝色3"/>
+        </shape>
+    </item>
+</layer-list>

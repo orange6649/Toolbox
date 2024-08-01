@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@mipmap/qq7"
+    tools:context="UI.Secure_ui.EnvironmentCheckActivity">
+
+    <!-- 返回按钮 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- 返回按钮 -->
+        <ImageView
+            android:id="@+id/imageView_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back"
+            android:layout_marginTop="1dp"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="检测结果"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="118dp"
+            android:layout_marginTop="1dp"/>
+
+
+    </LinearLayout>
+
+    <!-- 设备型号 -->
+    <TextView
+        android:id="@+id/textViewDeviceModel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设备型号："
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:textColor="#808080"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- 网络状态 -->
+    <TextView
+        android:id="@+id/textViewNetworkStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="当前网络状态："
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:textColor="#808080"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- 电池状态 -->
+    <TextView
+        android:id="@+id/textViewBatteryStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="当前电池状态："
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:textColor="#808080"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- 当前时间 -->
+    <TextView
+        android:id="@+id/textViewCurrentTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="当前时间："
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:textColor="#808080"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- 存储空间状态 -->
+    <TextView
+        android:id="@+id/textViewStorageStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="存储空间状态："
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:textColor="#808080"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- CPU 使用率 -->
+    <TextView
+        android:id="@+id/textViewCpuUsage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CPU 使用率："
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:textColor="#808080"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- 内存占用情况 -->
+    <TextView
+        android:id="@+id/textViewMemoryUsage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="内存占用情况："
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:textColor="#808080"
+        android:layout_marginBottom="8dp"/>
+
+</LinearLayout>

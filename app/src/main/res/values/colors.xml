@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="浅蓝">#CCEAEE</color>
+    <color name="蓝色">#2196F3</color> <!-- 蓝色 -->
+    <color name="橙色">#FF5722</color> <!-- 橙色 -->
+    <color name="绿色">#6FFF22</color> <!-- 绿色 -->
+    <color name="goldenrod">#CAC6C6</color>
+    <color name="浅绿色">#BDE6A7</color> <!-- 绿色 -->
+    <color name="浅蓝1">#ACE6ED</color>
+    <color name="浅蓝2">#A3D2D8</color>
+    <color name="goldenrod2">#F6F5F5</color>
+    <color name="蓝色2">#6EB8F4</color> <!-- 蓝色 -->
+    <color name="蓝色3">#C1E4FF</color> <!-- 蓝色 -->
+
+
+<color name="red">#FF0000</color> <!-- 红色 -->
+<color name="green">#00FF00</color> <!-- 绿色 -->
+<color name="blue">#0000FF</color> <!-- 蓝色 -->
+<color name="yellow">#FFFF00</color> <!-- 黄色 -->
+<color name="cyan">#00FFFF</color> <!-- 青色 -->
+<color name="magenta">#FF00FF</color> <!-- 品红 -->
+<color name="gray">#808080</color> <!-- 灰色 -->
+<color name="dark_gray">#A9A9A9</color> <!-- 深灰色 -->
+<color name="light_gray">#D3D3D3</color> <!-- 浅灰色 -->
+    <color name="colorStatusBar">#80000000</color> <!-- 设置透明状态栏 -->
+
+        <color name="浅深蓝">#3F51B5</color>
+        <color name="深蓝">#303F9F</color>
+        <color name="浅紫红">#FF4081</color>
+        <!-- 添加更多颜色资源 -->
+
+    <color name="yello">#FFC107</color>
+</resources>

@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- 新的主题 -->
+    <style name="Base.Theme.MyAPP" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/蓝色</item>
+        <!-- 设置状态栏颜色为指定颜色 -->
+        <item name="android:statusBarColor">@color/蓝色2</item>
+    </style>
+
+    <!-- 使用新的主题 -->
+    <style name="Theme.MyAPP" parent="Base.Theme.MyAPP" />
+
+    <!-- 浅色模式主题 -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/white</item>
+        <!-- 添加更多浅色模式下的样式 -->
+    </style>
+
+    <!-- 深色模式主题 -->
+    <style name="AppTheme.Dark" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/深蓝</item>
+        <item name="colorPrimaryDark">@color/浅深蓝</item>
+        <item name="colorAccent">@color/浅紫红</item>
+        <!-- 添加更多深色模式下的样式 -->
+    </style>
+
+</resources>

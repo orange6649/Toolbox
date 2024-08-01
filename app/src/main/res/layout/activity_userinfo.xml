@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/qq7">
+
+    <!-- 顶部栏 -->
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <!-- 返回按钮 -->
+        <ImageView
+            android:id="@+id/imageView_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back"
+            android:layout_gravity="center_vertical"
+            android:clickable="true"
+            android:focusable="true" />
+
+
+
+    </LinearLayout>
+
+    <!-- 用户头像 -->
+    <ImageView
+        android:id="@+id/imageViewAvatar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:src="@mipmap/img_4" />
+
+    <!-- 编辑用户名 -->
+    <TextView
+        android:id="@+id/textViewUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewAvatar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="用户名"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:clickable="true" />
+
+    <!-- 用户账号 -->
+    <TextView
+        android:id="@+id/textViewAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewUsername"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="用户账号"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <!-- 退出登录按钮 -->
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewAccount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24sp"
+        android:text="退出登录"
+        android:textColor="@color/black"
+        android:background="@drawable/button_border2"/>
+
+</RelativeLayout>

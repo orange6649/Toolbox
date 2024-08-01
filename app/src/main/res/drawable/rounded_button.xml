@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="20dp" /> <!-- 设置圆角半径，例如 20dp -->
+    <solid android:color="@color/蓝色" /> <!-- 设置按钮背景颜色 -->
+</shape>

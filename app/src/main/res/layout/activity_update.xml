@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/qq7"
+    android:padding="16dp">
+
+    <!-- 返回按钮和标题的水平线性布局 -->
+    <LinearLayout
+        android:id="@+id/layout_back_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <!-- 返回按钮 -->
+        <ImageView
+            android:id="@+id/imageView_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back"/>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_current_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="当前版本："
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_latest_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="最新版本："
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_check_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="检查当前版本"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:background="@drawable/button_border2"
+        android:layout_gravity="center_horizontal"/>
+
+    <!-- 添加间隔 -->
+    <View
+        android:layout_width="15dp"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/btn_download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下载最新版本"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:background="@drawable/button_border2"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>

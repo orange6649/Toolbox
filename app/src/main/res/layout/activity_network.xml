@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/qq7"
+    android:paddingStart="24dp"
+    android:paddingTop="24dp"
+    android:paddingEnd="24dp"
+    android:paddingBottom="16dp"
+    tools:context=".UI.My_screen.NetworkActivity">
+
+    <!-- 返回按钮和标题的水平线性布局 -->
+    <LinearLayout
+        android:id="@+id/layout_back_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!-- 返回按钮 -->
+        <ImageView
+            android:id="@+id/imageView_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back"/>
+
+        <!-- 标题 -->
+        <TextView
+            android:id="@+id/textView_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="网速测试"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <!-- 网络连接状态按钮 -->
+    <Button
+        android:id="@+id/button_aaa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击判断是否连接网络"
+        android:textSize="16sp"
+        android:layout_marginTop="32dp"
+        android:textColor="@color/green"
+        android:background="@drawable/button_border2"/>
+
+    <!-- 测试当前网速按钮 -->
+    <Button
+        android:id="@+id/button_speed_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试当前网速"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/red"
+        android:background="@drawable/button_border2"/>
+
+    <!-- Ping测试按钮 -->
+    <Button
+        android:id="@+id/button_ping_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ping测试"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/red"
+        android:background="@drawable/button_border2"/>
+
+    <!-- 显示网络连接状态的TextView -->
+    <TextView
+        android:id="@+id/text_speed_aaa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="网络连接状态 ："
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"/>
+
+    <!-- 显示当前网络速度的TextView -->
+    <TextView
+        android:id="@+id/text_speed_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="当前网络速度 ："
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+
+    <!-- 显示Ping测试结果的TextView -->
+    <TextView
+        android:id="@+id/text_speed_ping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ping测试结果 ："
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
